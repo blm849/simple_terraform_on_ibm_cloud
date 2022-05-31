@@ -42,9 +42,9 @@ terraform apply
 terraform output ip_address
 curl "http://$<IP address output>:<port_output>"
 
-ssh -i ~/.ssh/id_rsa ubuntu@$<IP address output> "echo 'Hello World'"
+ssh -i ~/.ssh/id_rsa ubuntu@<IP address output> "echo 'Hello World'"
 
-ssh -i ~/.ssh/id_rsa ubuntu@$<IP address output>
+ssh -i ~/.ssh/id_rsa ubuntu@<IP address output>
 # Exit from the instance with: exit
 
 terraform destroy
