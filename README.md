@@ -3,6 +3,10 @@ A simple example of how to use Terraform to build a straightforward environment 
 
 ## Introduction
 
+The repo is a good introduction to using Terraform to build resources on the IBM Cloud
+It will create a virtual private cloud (VPC) and then set up a virtual server on it.
+The server is a simple web server you can access via curl or ssh.
+
 This repo is based on the code found in this repo:
 Setup Terraform Environment for IBM Cloud
 https://ibm.github.io/cloud-enterprise-examples/iac/setup-environment/
