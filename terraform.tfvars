@@ -1,0 +1,5 @@
+ibmcloud_api_key = "IGs1MFtt8SucRos85NyTY_jQnJhrmMGzy8iijee1A81C"
+region = "us-south"
+basename = "tf-test-410"
+port = "8081"
+resource_group = "3929f5b42e9946449fa5696c02109b2d"
